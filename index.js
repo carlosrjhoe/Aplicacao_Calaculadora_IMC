@@ -12,7 +12,6 @@ function imc(){
         // Validação
         let valorIMC = (peso / Math.pow(altura,2)).toFixed(2);
 
-        // Classificação
         let classificacao = "";
         if(valorIMC < 18.5){
             classificacao = resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está a baixo do peso.`;
